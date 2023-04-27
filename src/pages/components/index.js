@@ -16,10 +16,14 @@ const Components = () => {
           <Product />
           <Product
             image={
-              "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661"
+              "https://cdn.thewirecutter.com/wp-content/media/2022/08/macbook-2048px-9765.jpg"
             }
-            name={"MacBook Pro 13 : M2"}
+            name={
+              "MacBook Pro 13 : M2MacBook Pro 13 : M2MacBook Pro 13 : M2MacBook Pro 13 : M2"
+            }
             detail={"Space Gray Color"}
+            price={"43,000"}
+            status={"ขายแล้ว 3,045"}
           />
         </Box>
       </Grid>
