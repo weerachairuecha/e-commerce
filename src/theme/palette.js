@@ -11,5 +11,8 @@ const palette = {
   success: {
     main: "#4caf50",
   },
+  white: {
+    main: "#FFFFFF",
+  },
 };
 export default palette;

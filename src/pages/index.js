@@ -1,13 +1,8 @@
-import { Box, Typography } from "@mui/material";
 import React from "react";
-import { Product } from "../components";
+import HomePage from "./home";
 
 const index = () => {
-  return (
-    <Box>
-      <Product />
-    </Box>
-  );
+  return <HomePage />
 };
 
 export default index;
