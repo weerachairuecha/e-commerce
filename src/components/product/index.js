@@ -13,7 +13,7 @@ const Product = ({
     <Box
       onClick={onClick}
       sx={{
-        width: 200,
+        width: 'auto',
         height: 300,
         border: "1px solid #efefef",
         display: "flex",

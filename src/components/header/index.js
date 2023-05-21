@@ -41,7 +41,7 @@ const Header = ({ children }) => {
     router.replace("/cart");
   };
   const handleProfile = () => {
-    // router.replace("/profile");
+    router.replace("/profile");
     if (isSmallScreen) {
       console.log("small");
     } else {
@@ -90,9 +90,9 @@ const Header = ({ children }) => {
 
             <Typography
               sx={{ cursor: "pointer", color: "#FFFFFF" }}
-              onClick={() => router.replace("/category")}
+              onClick={() => router.replace("/product")}
             >
-              Category
+              สินค้า
             </Typography>
 
             <IconButton onClick={handleCart}>

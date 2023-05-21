@@ -32,7 +32,7 @@ const SignIn = ({ handle = () => {}, handleSignUpButton = () => {} }) => {
   };
 
   return (
-    <Paper sx={{ padding: 2, width: '100%' }}>
+    <Paper sx={{ padding: 2, width: "100%" }}>
       <Stack spacing={2}>
         <TextField
           name={"email"}
